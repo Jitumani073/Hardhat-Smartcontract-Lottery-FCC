@@ -18,6 +18,9 @@ module.exports = {
             chainId: 31337,
             blockConfirmations: 1,
         },
+        localhost: {
+            chainId: 31337,
+        },
         goerli: {
             chainId: 5,
             blockConfirmations: 6,
@@ -46,6 +49,6 @@ module.exports = {
         token: "ETH",
     },
     mocha: {
-        timeout: 300000,
+        timeout: 500000,
     },
 }
