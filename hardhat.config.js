@@ -26,12 +26,14 @@ module.exports = {
             blockConfirmations: 6,
             url: GOERLI_RPC_URL,
             accounts: [PRIVATE_KEY],
+            saveDeployments: true,
         },
     },
     solidity: "0.8.8",
     namedAccounts: {
         deployer: {
             default: 0,
+            5: 0,
         },
         player: {
             default: 1,
@@ -49,6 +51,6 @@ module.exports = {
         token: "ETH",
     },
     mocha: {
-        timeout: 500000,
+        timeout: 900000,
     },
 }
