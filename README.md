@@ -66,3 +66,5 @@ You're contract is now setup to be a tamper proof autonomous verifiably random l
 
 `yarn hardhat run scripts/enter.js --network goerli`
 
+# Thank you!
+
