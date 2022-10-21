@@ -14,8 +14,8 @@ This implements Chainlink VRF v2 and Chainlink Keepers.
 git clone https://github.com/Jitumani073/Hardhat-Smartcontract-Lottery-FCC
 cd Hardhat-Smartcontract-Lottery-FCC
 yarn
-yarn dev
 ```
+
 # Usage
 
 #### Deploy:
